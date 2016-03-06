@@ -1,127 +1,90 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-<style type="text/css">
-div#container{width:auto;}
-div#header {height: 70px；background-color: #7373B9}
-div#navigation {height:800px;width:230px;float:left;}
-div#block {height:800px;width:70px;float:left;}
-div#content {height:800px;float:left;}
-div#footer {background-color:#99bbbb;clear:both;text-align:center;}
-h1 {margin-bottom:0;}
-h2 {margin-bottom:0;font-size:18px;}
-ul {margin:0;}
-li {list-style:none;}
-.button {
-   display: inline-block;
-   outline: none;
-   cursor: pointer;
-   text-align: center;
-   text-decoration: none;
-   font: 14px/100% Arial, Helvetica, sans-serif;
-   padding: .5em 2em .55em;
-   text-shadow: 0 1px 1px rgba(0,0,0,.3);
-   -webkit-border-radius: .5em; 
-   -moz-border-radius: .5em;
-   border-radius: .5em;
-   -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
-   -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
-   box-shadow: 0 1px 2px rgba(0,0,0,.2);
-   margin-left: 700px
-}
-.button:hover {
-   text-decoration: none;
-}
-.button:active {
-   position: relative;
-   top: 1px;
-}
-</style>
-<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-   <script src="/scripts/jquery.min.js"></script>
-   <script src="/bootstrap/js/bootstrap.min.js"></script>
-<link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet"/>
-        <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
-        <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 
-<div id="container">
+    <div id="container">
 
-<div id="header" class="page-header">
-<h1 align="center">Apply for a new project</h1>
-</div>
+        <div id="header" class="page-header">
+            <h1 align="center">Apply for a new project</h1>
+        </div>
 
-<div id="navigation" class="nav navbar-nav">
-<nav class="navbar navbar-default" role="navigation">
-   <div class="navbar-header">
-      <a class="navbar-brand" href="#">Menu</a>
-      </br></br></br></br>
-   </div>
-   <div>
-      <ul class="nav navbar-nav">
-         <li><a href="Annocements.html">Annocements</a></li>
-         </br></br></br></br>
-         <li><a href="Studentswork.html">Students' work</a></li>
-         </br></br></br></br>
-         <li><a href="ApplyProjects.html">Apply for new projects</a></li>
-         </br></br></br></br>
-      </ul>
-   </div>
-</nav>
-</div>
-<div id="block"></div>
+        <div id="navigation" class="nav navbar-nav">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="SupervisorInterface.html">Menu</a>
 
-<div id="content" width="auto">
-New project's name:
-</br>
-<textarea id="titleInput" class="inputBlock" style="width:750px;height:30px"></textarea>
-</br>
-Describe:
-</br>
-<textarea id="contentInput" class="inputBlock" style="width:750px;height:150px"></textarea>
-</br>
-Partner Studend's email:
-</br>
-      <div class="input-group" style="width:300px;height:30px">         
-         <input type="text" class="form-control" placeholder="email username" >
-         <span class="input-group-addon">@wku.edu.cn</span>
-      </div>
-      </br>
-      <div class="input-group" style="width:300px;height:30px">         
-         <input type="text" class="form-control" placeholder="email username" >
-         <span class="input-group-addon">@wku.edu.cn</span>
-      </div>
-      </br>
-      <div class="input-group" style="width:300px;height:30px">         
-         <input type="text" class="form-control" placeholder="email username" >
-         <span class="input-group-addon">@wku.edu.cn</span>
-      </div>
-      </br>
-      <div class="input-group" style="width:300px;height:30px">         
-         <input type="text" class="form-control" placeholder="email username" >
-         <span class="input-group-addon">@wku.edu.cn</span>
-      </div>
-      </br>
-      <div class="input-group" style="width:300px;height:30px">         
-         <input type="text" class="form-control" placeholder="email username" >
-         <span class="input-group-addon">@wku.edu.cn</span>
-      </div>
-      </br>
-      <div class="input-group" style="width:300px;height:30px">         
-         <input type="text" class="form-control" placeholder="email username" >
-         <span class="input-group-addon">@wku.edu.cn</span>
-      </div>
-      </br>
-</br></br>
-<input id="btnconfirm" type="submit" value="Submit" name="btnconfirm" class="button"></input>
-</div>
+                </div>
+                <div>
+                    <ul class="nav navbar-nav menu_bar">
+                        <li><a href="Annocements.html">Annocements</a></li>
 
-<div id="footer">Copyright WenZhou-Kean Unvirsity</div>
+                        <li><a href="Studentswork.html">Students' work</a></li>
 
-</div>
+                        <li><a href="ApplyProjects.html">Apply for new projects</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div id="block"></div>
+
+        <div id="content" width="auto">
+            New project's name:
+            <br>
+            <textarea id="titleInput" class="inputBlock" style="width:750px;height:30px"></textarea>
+            <br> Describe:
+            <br>
+            <textarea id="contentInput" class="inputBlock" style="width:750px;height:150px"></textarea>
+            <br> Partner Studend's email:
+            <br>
+            <div class="input-group" style="width:300px;height:30px">
+                <input type="text" class="form-control" placeholder="email username">
+                <span class="input-group-addon">@wku.edu.cn</span>
+            </div>
+            <br>
+            <div class="input-group" style="width:300px;height:30px">
+                <input type="text" class="form-control" placeholder="email username">
+                <span class="input-group-addon">@wku.edu.cn</span>
+            </div>
+            <br>
+            <div class="input-group" style="width:300px;height:30px">
+                <input type="text" class="form-control" placeholder="email username">
+                <span class="input-group-addon">@wku.edu.cn</span>
+            </div>
+            <br>
+            <div class="input-group" style="width:300px;height:30px">
+                <input type="text" class="form-control" placeholder="email username">
+                <span class="input-group-addon">@wku.edu.cn</span>
+            </div>
+            <br>
+            <div class="input-group" style="width:300px;height:30px">
+                <input type="text" class="form-control" placeholder="email username">
+                <span class="input-group-addon">@wku.edu.cn</span>
+            </div>
+            <br>
+            <div class="input-group" style="width:300px;height:30px">
+                <input type="text" class="form-control" placeholder="email username">
+                <span class="input-group-addon">@wku.edu.cn</span>
+            </div>
+            <br>
+            <br>
+            <br>
+            <input id="btnconfirm" type="submit" value="Submit" name="btnconfirm" class="button">
+        </div>
+
+        <div id="footer">Copyright WenZhou-Kean Unvirsity</div>
+
+    </div>
 
 </body>
+
 </html>
