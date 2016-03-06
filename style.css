@@ -1,0 +1,84 @@
+div#container {
+    width: auto;
+}
+
+div#header {
+    height: 70px；background-color: #7373B9
+}
+
+div#navigation {
+    height: 800px;
+    width: 230px;
+    float: left;
+}
+
+div#block {
+    height: 800px;
+    width: 70px;
+    float: left;
+}
+
+div#content {
+    height: 800px;
+    float: left;
+}
+
+div#inputBlock {
+    width: 400px;
+    height: 30px;
+}
+
+div#footer {
+    background-color: #99bbbb;
+    clear: both;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    padding: .5em 2em .55em;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    margin-left: 700px
+}
+
+.button:hover {
+    text-decoration: none;
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+}
+
+.menu_bar li {
+    height: 80px;
+    margin-top: 20px;
+}
