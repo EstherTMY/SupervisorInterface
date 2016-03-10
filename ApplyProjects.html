@@ -27,7 +27,7 @@
                     <ul class="nav navbar-nav menu_bar">
                         <li><a href="Annocements.html">Annocements</a></li>
 
-                        <li><a href="Studentswork.html">Students' work</a></li>
+                        <li><a href="Studentswork.php">Students' work</a></li>
 
                         <li><a href="ApplyProjects.html">Apply for new projects</a></li>
 
@@ -38,40 +38,41 @@
         <div id="block"></div>
 
         <div id="content" width="auto">
+        <form action="applyProjects.php" method="post">
             New project's name:
             <br>
-            <textarea id="titleInput" class="inputBlock" style="width:750px;height:30px"></textarea>
+            <textarea id="titleInput" class="inputBlock" style="width:750px;height:30px" name="projectName"></textarea>
             <br> Describe:
             <br>
-            <textarea id="contentInput" class="inputBlock" style="width:750px;height:150px"></textarea>
+            <textarea id="contentInput" class="inputBlock" style="width:750px;height:150px" name = "projectDescribe"></textarea>
             <br> Partner Studend's email:
             <br>
-            <div class="input-group" style="width:300px;height:30px">
+            <div class="input-group" style="width:300px;height:30px" name = "student1">
                 <input type="text" class="form-control" placeholder="email username">
                 <span class="input-group-addon">@wku.edu.cn</span>
             </div>
             <br>
-            <div class="input-group" style="width:300px;height:30px">
+            <div class="input-group" style="width:300px;height:30px" name = "student2">
                 <input type="text" class="form-control" placeholder="email username">
                 <span class="input-group-addon">@wku.edu.cn</span>
             </div>
             <br>
-            <div class="input-group" style="width:300px;height:30px">
+            <div class="input-group" style="width:300px;height:30px" name = "student3">
                 <input type="text" class="form-control" placeholder="email username">
                 <span class="input-group-addon">@wku.edu.cn</span>
             </div>
             <br>
-            <div class="input-group" style="width:300px;height:30px">
+            <div class="input-group" style="width:300px;height:30px" name = "student4">
                 <input type="text" class="form-control" placeholder="email username">
                 <span class="input-group-addon">@wku.edu.cn</span>
             </div>
             <br>
-            <div class="input-group" style="width:300px;height:30px">
+            <div class="input-group" style="width:300px;height:30px" name = "student5">
                 <input type="text" class="form-control" placeholder="email username">
                 <span class="input-group-addon">@wku.edu.cn</span>
             </div>
             <br>
-            <div class="input-group" style="width:300px;height:30px">
+            <div class="input-group" style="width:300px;height:30px" name = "student6">
                 <input type="text" class="form-control" placeholder="email username">
                 <span class="input-group-addon">@wku.edu.cn</span>
             </div>
@@ -79,6 +80,7 @@
             <br>
             <br>
             <input id="btnconfirm" type="submit" value="Submit" name="btnconfirm" class="button">
+        </form>
         </div>
 
         <div id="footer">Copyright WenZhou-Kean Unvirsity</div>

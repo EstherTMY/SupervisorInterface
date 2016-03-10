@@ -27,7 +27,7 @@
                     <ul class="nav navbar-nav menu_bar">
                         <li class="active"><a href="Annocements.html">Annocements</a></li>
 
-                        <li><a href="Studentswork.html">Students' work</a></li>
+                        <li><a href="Studentswork.php">Students' work</a></li>
 
                         <li><a href="ApplyProjects.html">Apply for new projects</a></li>
 
@@ -38,16 +38,17 @@
         <div id="block"></div>
 
         <div id="content">
-            Title:
+        <form method="post" action="NewAnnocement.php">
+            <h4>Title:</h4>
+            
+            <textarea id="titleInput" class="inputBlock" style="width:800px;height:40px" name = "title"></textarea>
+            <br> <h4>Body:</h4>
+            
+            <textarea id="contentInput" class="inputBlock" style="width:800px;height:350px" name = "content"></textarea>
             <br>
-            <textarea id="titleInput" class="inputBlock" style="width:800px;height:40px"></textarea>
-            <br> Body:
             <br>
-            <textarea id="contentInput" class="inputBlock" style="width:800px;height:350px"></textarea>
-            <br>
-            <br>
-            <input id="btnconfirm" type="submit" value="Submit" name="btnconfirm" class="button">
-
+            <input id="btnconfirm" type="submit" value="Submit" name="submit" class="button">
+        </form>
         </div>
     </div>
 
