@@ -1,0 +1,129 @@
+body {
+    background-image: url(https://s.yimg.com/uy/build/images/sohp/inspiration/crs43.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*login page */
+
+#login_title {
+    font-size: 48px;
+    font-family: cursive;
+    color: rgba(240, 248, 255, 0.70);
+}
+
+#form_group {
+    margin-top: 10%;
+}
+
+h4{
+    color: rgba(240, 248, 255, 0.70);
+    font-family: cursive;
+    font-weight: 800;
+}
+
+
+
+#wrap {
+    margin-top: 50px;
+    margin-left: 10%;
+    padding-top:25px;
+    padding-bottom: 25px;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+
+/*nav*/
+
+#nav_head a {
+    font-size: 32px;
+}
+
+#nav_ul li {
+    float: right;
+    line-height: 80px;
+}
+
+#nav_ul li a {
+    text-align: center;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+#nav_form {
+    float: right;
+    margin-right: 20px;
+}
+
+#nav_input {
+    margin-right: 30px;
+}
+
+
+/*mainstyle sele_panel*/
+
+#sele_panel {
+    margin-left: 16.7%;
+    margin-top: 50px;
+}
+
+
+/*student_result*/
+
+#super_serch {
+    margin-left: 25%;
+    margin-top: 50px;
+}
+
+
+/*students edit btn*/
+
+.edit_btn {
+    float: right;
+}
+
+
+/*super_edit_btn*/
+
+.super_edit_btn {
+    float: left;
+    width: 65px;
+}
+
+
+/*super_detail_btn*/
+
+.super_deta_btn {
+    float: right;
+    width: 65px;
+}
+
+.main_panel {
+    margin-left: 8.35%
+}
+
+
+/*
+span badge color 
+working  green
+finished grey
+*/
+
+.badge {
+    float: left;
+    margin-top: 5%;
+}
+
+.badge_work {
+    float: left;
+    background-color: rgb(115, 183, 115);
+}
+
+#proj_result_tb tr td {
+    padding: auto;
+}
