@@ -1,5 +1,6 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<!DOCTYPE html>
 <html>
 
@@ -70,6 +71,8 @@ echo $id;
 	</body>
 </html>
 =======
+=======
+>>>>>>> origin/master
 
 <?php
 
@@ -107,4 +110,7 @@ $r = mysqli_query($dbc,$q);
 	
 
 ?>
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master

@@ -44,15 +44,21 @@ while($row = mysqli_fetch_array($result))
   if($Task2!=NULL){
   	echo "<tr>";
 <<<<<<< HEAD
+<<<<<<< HEAD
   	echo "<td>" . $row['name'] . "</td>";
   	echo "<td>" . $row['title'] . "</td>";
   	echo "<td>" . $row['abstract'] . "</td>";
   	echo "</tr>";
 =======
+=======
+>>>>>>> origin/master
   echo "<td>" . $row['name'] . "</td>";
   echo "<td>" . $row['title'] . "</td>";
   echo "<td>" . $row['abstract'] . "</td>";
   echo "</tr>";
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
   }
 }
@@ -154,7 +160,10 @@ mysqli_close($con);
             </h4>
          </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
          <div class="modal-body">
@@ -165,10 +174,16 @@ mysqli_close($con);
          placeholder="Input the name">
    </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
    <form action="upload.php" method="post" enctype="multipart/form-data">
    <div class="form-group">
       <label class="sr-only" for="inputfile">Find in this computer</label>
       <input type="file" id="inputfile" name = "file">
+=======
+   <div class="form-group">
+      <label class="sr-only" for="inputfile">Find in this computer</label>
+      <input type="file" id="inputfile">
+>>>>>>> origin/master
 =======
    <div class="form-group">
       <label class="sr-only" for="inputfile">Find in this computer</label>
@@ -182,16 +197,22 @@ mysqli_close($con);
                data-dismiss="modal">close
             </button>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <button type="submit" class="btn btn-primary" name="submit">
                submit
             </button>
          </div>
     </form>
 =======
+=======
+>>>>>>> origin/master
             <button type="button" class="btn btn-primary">
                submit
             </button>
          </div>
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
       </div><!-- /.modal-content -->
 </div><!-- /.modal -->

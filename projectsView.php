@@ -42,7 +42,11 @@
                         <li><a href="projectProcess.php">Project Process</a></li>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <li><a href="studentInformation.php">Student information</a></li>
+=======
+                        <li><a href="studentInformation.html">Student information</a></li>
+>>>>>>> origin/master
 =======
                         <li><a href="studentInformation.html">Student information</a></li>
 >>>>>>> origin/master

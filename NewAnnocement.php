@@ -1,9 +1,14 @@
 <?php 
 include "conn.php";
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 if (isset($_POST["submit"])){
 	$profID = $_COOKIE['idcookie'];
+=======
+$profID = '0103';
+if (isset($_POST["submit"])){
+>>>>>>> origin/master
 =======
 $profID = '0103';
 if (isset($_POST["submit"])){
@@ -20,7 +25,11 @@ if (isset($_POST["submit"])){
 	$q = "INSERT IGNORE INTO annonces (announID, title, content,time) values($announID, '$title' , '$content', '$time');";
 	mysqli_query($dbc,$q);
 <<<<<<< HEAD
+<<<<<<< HEAD
 	header("location:SupervisorInterface.html");
+=======
+	echo "<p>Submit sucessful, please click <a href=SupervisorInterface.html>here</a> to return.</p>";
+>>>>>>> origin/master
 =======
 	echo "<p>Submit sucessful, please click <a href=SupervisorInterface.html>here</a> to return.</p>";
 >>>>>>> origin/master
